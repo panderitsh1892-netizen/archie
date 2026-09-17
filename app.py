@@ -19,8 +19,8 @@ from config import CHUNK_SIZE, CHUNK_OVERLAP
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="DocuMind - Document Intelligence Assistant",
-    page_icon="📄",
+    page_title="Archie - Intelligent Document Reader",
+    page_icon="📚",
     layout="wide"
 )
 
@@ -111,8 +111,8 @@ with st.sidebar:
 
 
 # --- Main Chat Interface ---
-st.title("📄 DocuMind")
-st.caption("Enterprise Document Intelligence Engine using Retrieval-Augmented Generation (RAG)")
+st.title("📚 Archie")
+st.caption("Your intelligent document companion powered by Retrieval-Augmented Generation (RAG)")
 
 # Display chat history
 for message in st.session_state.messages:

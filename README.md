@@ -1,6 +1,6 @@
-# 📄 DocuMind — Enterprise Document Intelligence Engine
+# 📚 Archie — Your Intelligent Document Companion
 
-**DocuMind** is a production-ready **Retrieval-Augmented Generation (RAG)** platform that enables conversational knowledge extraction across PDF documents. Built with LangChain, Google Gemini, FAISS, and Streamlit.
+**Archie** is an enterprise-grade **Retrieval-Augmented Generation (RAG)** assistant that reads, indexes, and converses with your PDF documents, grounding answers in verifiable facts with citations. Built with LangChain, Google Gemini, FAISS, and Streamlit.
 
 ## 🧠 What is RAG?
 
@@ -75,7 +75,7 @@ Uses **cosine similarity** to measure the angle between two vectors. Smaller ang
 ## 📂 Project Structure
 
 ```
-documind-rag/
+archie/
 ├── app.py                 # Streamlit UI — main entry point
 ├── rag_engine.py          # Core RAG logic — retrieval + generation
 ├── document_processor.py  # PDF loading + text chunking
@@ -95,7 +95,7 @@ documind-rag/
 
 ### 2. Install Dependencies
 ```bash
-cd documind-rag
+cd archie
 pip install -r requirements.txt
 ```
 
