@@ -1,0 +1,20 @@
+# Environment variables
+.env
+*.env
+.env.*
+!.env.example
+
+# Vector Store Index
+faiss_index/
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
